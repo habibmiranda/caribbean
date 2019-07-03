@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377EB7BE22CC487900EEAE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377EB7BD22CC487900EEAE5C /* AppDelegate.swift */; };
+		377EB7C022CC487900EEAE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377EB7BF22CC487900EEAE5C /* ViewController.swift */; };
+		377EB7C322CC487900EEAE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377EB7C122CC487900EEAE5C /* Main.storyboard */; };
+		377EB7C522CC487B00EEAE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377EB7C422CC487B00EEAE5C /* Assets.xcassets */; };
+		377EB7C822CC487B00EEAE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377EB7C622CC487B00EEAE5C /* LaunchScreen.storyboard */; };
+		377EB7D322CC487B00EEAE5C /* CaribbeanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377EB7D222CC487B00EEAE5C /* CaribbeanTests.swift */; };
+		377EB7DE22CC487B00EEAE5C /* CaribbeanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377EB7DD22CC487B00EEAE5C /* CaribbeanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377EB7CF22CC487B00EEAE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377EB7B222CC487900EEAE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377EB7B922CC487900EEAE5C;
+			remoteInfo = Caribbean;
+		};
+		377EB7DA22CC487B00EEAE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377EB7B222CC487900EEAE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377EB7B922CC487900EEAE5C;
+			remoteInfo = Caribbean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		377EB7BA22CC487900EEAE5C /* Caribbean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caribbean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377EB7BD22CC487900EEAE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377EB7BF22CC487900EEAE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		377EB7C222CC487900EEAE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377EB7C422CC487B00EEAE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377EB7C722CC487B00EEAE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		377EB7C922CC487B00EEAE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377EB7CE22CC487B00EEAE5C /* CaribbeanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaribbeanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377EB7D222CC487B00EEAE5C /* CaribbeanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaribbeanTests.swift; sourceTree = "<group>"; };
+		377EB7D422CC487B00EEAE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377EB7D922CC487B00EEAE5C /* CaribbeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaribbeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377EB7DD22CC487B00EEAE5C /* CaribbeanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaribbeanUITests.swift; sourceTree = "<group>"; };
+		377EB7DF22CC487B00EEAE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377EB7B722CC487900EEAE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377EB7CB22CC487B00EEAE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377EB7D622CC487B00EEAE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377EB7B122CC487900EEAE5C = {
+			isa = PBXGroup;
+			children = (
+				377EB7BC22CC487900EEAE5C /* Caribbean */,
+				377EB7D122CC487B00EEAE5C /* CaribbeanTests */,
+				377EB7DC22CC487B00EEAE5C /* CaribbeanUITests */,
+				377EB7BB22CC487900EEAE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377EB7BB22CC487900EEAE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377EB7BA22CC487900EEAE5C /* Caribbean.app */,
+				377EB7CE22CC487B00EEAE5C /* CaribbeanTests.xctest */,
+				377EB7D922CC487B00EEAE5C /* CaribbeanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377EB7BC22CC487900EEAE5C /* Caribbean */ = {
+			isa = PBXGroup;
+			children = (
+				377EB7BD22CC487900EEAE5C /* AppDelegate.swift */,
+				377EB7BF22CC487900EEAE5C /* ViewController.swift */,
+				377EB7C122CC487900EEAE5C /* Main.storyboard */,
+				377EB7C422CC487B00EEAE5C /* Assets.xcassets */,
+				377EB7C622CC487B00EEAE5C /* LaunchScreen.storyboard */,
+				377EB7C922CC487B00EEAE5C /* Info.plist */,
+			);
+			path = Caribbean;
+			sourceTree = "<group>";
+		};
+		377EB7D122CC487B00EEAE5C /* CaribbeanTests */ = {
+			isa = PBXGroup;
+			children = (
+				377EB7D222CC487B00EEAE5C /* CaribbeanTests.swift */,
+				377EB7D422CC487B00EEAE5C /* Info.plist */,
+			);
+			path = CaribbeanTests;
+			sourceTree = "<group>";
+		};
+		377EB7DC22CC487B00EEAE5C /* CaribbeanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				377EB7DD22CC487B00EEAE5C /* CaribbeanUITests.swift */,
+				377EB7DF22CC487B00EEAE5C /* Info.plist */,
+			);
+			path = CaribbeanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377EB7B922CC487900EEAE5C /* Caribbean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377EB7E222CC487B00EEAE5C /* Build configuration list for PBXNativeTarget "Caribbean" */;
+			buildPhases = (
+				377EB7B622CC487900EEAE5C /* Sources */,
+				377EB7B722CC487900EEAE5C /* Frameworks */,
+				377EB7B822CC487900EEAE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caribbean;
+			productName = Caribbean;
+			productReference = 377EB7BA22CC487900EEAE5C /* Caribbean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377EB7CD22CC487B00EEAE5C /* CaribbeanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377EB7E522CC487B00EEAE5C /* Build configuration list for PBXNativeTarget "CaribbeanTests" */;
+			buildPhases = (
+				377EB7CA22CC487B00EEAE5C /* Sources */,
+				377EB7CB22CC487B00EEAE5C /* Frameworks */,
+				377EB7CC22CC487B00EEAE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377EB7D022CC487B00EEAE5C /* PBXTargetDependency */,
+			);
+			name = CaribbeanTests;
+			productName = CaribbeanTests;
+			productReference = 377EB7CE22CC487B00EEAE5C /* CaribbeanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		377EB7D822CC487B00EEAE5C /* CaribbeanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377EB7E822CC487B00EEAE5C /* Build configuration list for PBXNativeTarget "CaribbeanUITests" */;
+			buildPhases = (
+				377EB7D522CC487B00EEAE5C /* Sources */,
+				377EB7D622CC487B00EEAE5C /* Frameworks */,
+				377EB7D722CC487B00EEAE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377EB7DB22CC487B00EEAE5C /* PBXTargetDependency */,
+			);
+			name = CaribbeanUITests;
+			productName = CaribbeanUITests;
+			productReference = 377EB7D922CC487B00EEAE5C /* CaribbeanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377EB7B222CC487900EEAE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Habib Miranda-Garcia";
+				TargetAttributes = {
+					377EB7B922CC487900EEAE5C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					377EB7CD22CC487B00EEAE5C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 377EB7B922CC487900EEAE5C;
+					};
+					377EB7D822CC487B00EEAE5C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 377EB7B922CC487900EEAE5C;
+					};
+				};
+			};
+			buildConfigurationList = 377EB7B522CC487900EEAE5C /* Build configuration list for PBXProject "Caribbean" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377EB7B122CC487900EEAE5C;
+			productRefGroup = 377EB7BB22CC487900EEAE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377EB7B922CC487900EEAE5C /* Caribbean */,
+				377EB7CD22CC487B00EEAE5C /* CaribbeanTests */,
+				377EB7D822CC487B00EEAE5C /* CaribbeanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377EB7B822CC487900EEAE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377EB7C822CC487B00EEAE5C /* LaunchScreen.storyboard in Resources */,
+				377EB7C522CC487B00EEAE5C /* Assets.xcassets in Resources */,
+				377EB7C322CC487900EEAE5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377EB7CC22CC487B00EEAE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377EB7D722CC487B00EEAE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377EB7B622CC487900EEAE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377EB7C022CC487900EEAE5C /* ViewController.swift in Sources */,
+				377EB7BE22CC487900EEAE5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377EB7CA22CC487B00EEAE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377EB7D322CC487B00EEAE5C /* CaribbeanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377EB7D522CC487B00EEAE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377EB7DE22CC487B00EEAE5C /* CaribbeanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377EB7D022CC487B00EEAE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377EB7B922CC487900EEAE5C /* Caribbean */;
+			targetProxy = 377EB7CF22CC487B00EEAE5C /* PBXContainerItemProxy */;
+		};
+		377EB7DB22CC487B00EEAE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377EB7B922CC487900EEAE5C /* Caribbean */;
+			targetProxy = 377EB7DA22CC487B00EEAE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377EB7C122CC487900EEAE5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377EB7C222CC487900EEAE5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377EB7C622CC487B00EEAE5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377EB7C722CC487B00EEAE5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377EB7E022CC487B00EEAE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		377EB7E122CC487B00EEAE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377EB7E322CC487B00EEAE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FK8339SSN;
+				INFOPLIST_FILE = Caribbean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = habibmiranda.Caribbean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		377EB7E422CC487B00EEAE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FK8339SSN;
+				INFOPLIST_FILE = Caribbean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = habibmiranda.Caribbean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		377EB7E622CC487B00EEAE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FK8339SSN;
+				INFOPLIST_FILE = CaribbeanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = habibmiranda.CaribbeanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caribbean.app/Caribbean";
+			};
+			name = Debug;
+		};
+		377EB7E722CC487B00EEAE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FK8339SSN;
+				INFOPLIST_FILE = CaribbeanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = habibmiranda.CaribbeanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caribbean.app/Caribbean";
+			};
+			name = Release;
+		};
+		377EB7E922CC487B00EEAE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FK8339SSN;
+				INFOPLIST_FILE = CaribbeanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = habibmiranda.CaribbeanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Caribbean;
+			};
+			name = Debug;
+		};
+		377EB7EA22CC487B00EEAE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FK8339SSN;
+				INFOPLIST_FILE = CaribbeanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = habibmiranda.CaribbeanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Caribbean;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377EB7B522CC487900EEAE5C /* Build configuration list for PBXProject "Caribbean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377EB7E022CC487B00EEAE5C /* Debug */,
+				377EB7E122CC487B00EEAE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377EB7E222CC487B00EEAE5C /* Build configuration list for PBXNativeTarget "Caribbean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377EB7E322CC487B00EEAE5C /* Debug */,
+				377EB7E422CC487B00EEAE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377EB7E522CC487B00EEAE5C /* Build configuration list for PBXNativeTarget "CaribbeanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377EB7E622CC487B00EEAE5C /* Debug */,
+				377EB7E722CC487B00EEAE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377EB7E822CC487B00EEAE5C /* Build configuration list for PBXNativeTarget "CaribbeanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377EB7E922CC487B00EEAE5C /* Debug */,
+				377EB7EA22CC487B00EEAE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377EB7B222CC487900EEAE5C /* Project object */;
+}
