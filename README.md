@@ -1,5 +1,5 @@
 # caribbean
-Caribbean simple application.
+Caribbean simple application. MVC design patterns.
 
 Ran against Instruments to check for leaks.
 
